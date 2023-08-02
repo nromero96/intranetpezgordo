@@ -1,0 +1,13 @@
+# Ignorar el directorio de dependencias de Composer
+/vendor/
+
+# Ignorar archivos de configuración
+/application/config/config.php
+/application/config/database.php
+
+# Ignorar directorios y archivos generados
+/application/cache/
+/application/logs/
+/uploads/
+/node_modules/
+/vendor/

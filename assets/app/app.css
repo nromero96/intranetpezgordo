@@ -1,0 +1,400 @@
+.btnvermas{
+	    float: right;
+    color: #f5f5f5;
+    font-size: 16px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+
+#guiaiconosdesktop{
+  display: block;
+}
+
+#guiaiconosmovil{
+  display: none;
+}
+
+.icnoperacion{
+  font-size: 44px;
+  text-shadow: 0px 0px 10px #3a62a8c2;
+  color: #3a62a8;
+  transform: rotate(180);
+}
+
+.icnoperacion.salidadesktop{
+    animation: salidalr 1s infinite;
+}
+
+.icnoperacion.salidamovil{
+  animation: salidadwup 1s infinite;
+}
+
+.icnoperacion.entradadesktop{
+    animation: entradalr 1s infinite;
+}
+
+.icnoperacion.entradamovil{
+  animation: entradadwup 1s infinite;
+}
+
+@keyframes salidalr {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes entradalr {
+    0% {
+        transform: translateX(0px);
+
+    }
+    50% {
+        transform: translateX(-10px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes salidadwup {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes entradadwup {
+    0% {
+        transform: translateY(0px);
+
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+.imgdirec{
+	box-shadow: 0px -7px 16px 1px #d4d4d4;
+    border-radius: 10px 10px 0px 0px;
+}
+.nomdir{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #f4f3ef;
+    box-shadow: 1px 0px 10px 1px #d4d4d4;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.sidebar .sidebar-wrapper>.nav [data-toggle=collapse]~div>ul>li>a .sidebar-mini{
+  text-transform: uppercase;
+    float: left;
+    width: 30px;
+    text-align: center;
+    margin-right: 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    background: black;
+    color: white;
+    border-radius: 50px;
+}
+
+.sidebar .sidebar-wrapper>.nav [data-toggle=collapse]~div>ul>li>a .sidebar-normal{
+}
+
+.subicon{
+  font-size: 18px !important;
+}
+
+.badge{
+	color:white;
+}
+
+.input-group-addon {
+    padding: .5rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #495057;
+    text-align: center;
+    background-color: #e9ecef;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+
+.crfile {
+    min-height: 75px;
+    box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.08);
+    border-top: 1px solid #eaeaea;
+}
+
+.crfile label{
+	float: right;
+    position: relative;
+    margin-top: -60px;
+    display: none;
+}
+
+.crfile:hover label{
+	display:table-cell;
+}
+
+.crfile .badge-pill{
+	padding-right: 0.7em;
+    padding-left: 0.7em;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+}
+
+
+.cuapdf {
+    width: 50px;
+    border-right: 1px solid #ddd !important;
+}
+
+.txtenlac {
+    padding-left: 6px !important;
+}
+
+.sidebar .nav p{
+  margin: 0;
+  position: relative;
+  font-weight: 600;
+}
+
+.tim-row {
+  margin-bottom: 20px;
+}
+
+.tim-white-buttons {
+  background-color: #777777;
+}
+
+.typography-line {
+  padding-left: 25%;
+  margin-bottom: 35px;
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.titsubcat{
+  	border: 2px dotted #ffffff;
+    padding: 1px 9px;
+    font-weight: 500;
+    box-shadow: 1px 1px 17px 0px #eaeaea;
+    background: #3a62a8;
+    color: white;
+}
+
+.sublis{
+  margin-bottom: 1em;
+}
+
+.typography-line span {
+  bottom: 10px;
+  color: #c0c1c2;
+  display: block;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 13px;
+  left: 0;
+  position: absolute;
+  width: 260px;
+  text-transform: none;
+}
+
+.tim-row {
+  padding-top: 60px;
+}
+
+.tim-row h3 {
+  margin-top: 0;
+}
+
+.offline-doc .page-header {
+  display: flex;
+  align-items: center;
+}
+
+.offline-doc .footer {
+  position: absolute;
+  width: 100%;
+  background: transparent;
+  bottom: 0;
+  color: #fff;
+  z-index: 1;
+}
+
+@media all and (min-width: 992px) {
+  .sidebar .nav>li.active-pro {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+  }
+}
+
+.card.card-upgrade .card-category {
+  max-width: 530px;
+  margin: 0 auto;
+}
+
+/* Nucleo Style */
+
+.demo-iconshtml {
+  font-size: 62.5%;
+}
+
+.demo-icons body {
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  color: #333333;
+  background: white;
+}
+
+.demo-icons a {
+  color: #608CEE;
+  text-decoration: none;
+}
+
+.demo-icons header {
+  text-align: center;
+  padding: 100px 0 0;
+}
+
+.demo-icons header h1 {
+  font-size: 2.8rem;
+}
+
+.demo-icons header p {
+  font-size: 1.4rem;
+  margin-top: 1em;
+}
+
+.demo-icons header a:hover {
+  text-decoration: underline;
+}
+
+.demo-icons .nc-icon {
+  font-size: 34px;
+}
+
+.demo-icons section h2 {
+  border-bottom: 1px solid #e2e2e2;
+  padding: 0 0 1em .2em;
+  margin-bottom: 1em;
+}
+
+.demo-icons ul {
+  padding-left: 0;
+}
+
+.demo-icons ul::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.demo-icons ul li {
+  width: 20%;
+  float: left;
+  padding: 16px 0;
+  text-align: center;
+  border-radius: .25em;
+  -webkit-transition: background 0.2s;
+  -moz-transition: background 0.2s;
+  transition: background 0.2s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden;
+}
+
+.demo-icons ul li:hover {
+  background: #f4f4f4;
+}
+
+.demo-icons ul p,
+.demo-icons ul em,
+.demo-icons ul input {
+  display: inline-block;
+  font-size: 1rem;
+  color: #999999;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+.demo-icons ul p {
+  padding: 20px 0 0;
+  font-size: 12px;
+  margin: 0;
+}
+
+.demo-icons ul p::selection,
+.demo-icons ul em::selection {
+  background: #608CEE;
+  color: #efefef;
+}
+
+.demo-icons ul em {
+  font-size: 12px;
+}
+
+.demo-icons ul em::before {
+  content: '[';
+}
+
+.demo-icons ul em::after {
+  content: ']';
+}
+
+.demo-icons ul input {
+  text-align: center;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  #guiaiconosdesktop{
+    display: none;
+  }
+
+  #guiaiconosmovil{
+    display: block;
+  }
+}
